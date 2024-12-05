@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Farlab from "../assets/favicon96.png";
-import { useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import { useCart } from "../context/CartContext";
 import { useToggle } from "../hooks/useToggle";
 
@@ -25,6 +25,8 @@ export const Navbar = () => {
   const { cart } = useCart();
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
 
+  const cartRef = useRef(null);
+
   const handleToggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -32,6 +34,19 @@ export const Navbar = () => {
   const handleToggleCart = () => {
     setIsCartOpen(!isCartOpen);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (cartRef.current && !cartRef.current.contains(event.target)) {
+        setIsCartOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className="fixed top-0 bg-blue-800 w-full bg-opacity-50 backdrop-blur-md z-50">
@@ -91,7 +106,7 @@ export const Navbar = () => {
             ))}
           </ul>
         </div>
-        <div className="relative">
+        <div className="relative" ref={cartRef}>
           <button
             onClick={handleToggleCart}
             className="bg-blue-500 text-white px-3 py-1 rounded-full hover:bg-blue-600 transition-colors"

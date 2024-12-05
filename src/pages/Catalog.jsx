@@ -3,6 +3,7 @@ import { useState, useMemo, useEffect } from "react";
 import Sidebar from "../components/Sidebar";
 import ProductCard from "../components/ProductCard";
 import { useCart } from "../context/CartContext";
+import { products } from "../mocks/api.json";
 
 const filters = [
   {
@@ -88,31 +89,31 @@ const Catalog = () => {
 
   const { addToCart } = useCart();
 
-  const [products, setProducts] = useState([]); // State to store fetched products
+  //const [products, setProducts] = useState([]); // State to store fetched products
   const [isLoading, setIsLoading] = useState(true); // State to manage loading state
   const [error, setError] = useState(null); // State to manage error
 
   // Fetch products from the API
-  useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const response = await fetch(
-          "http://127.0.0.1:8000/api/productos/listado"
-        );
-        if (!response.ok) {
-          throw new Error("Failed to fetch products");
-        }
-        const data = await response.json(); // Parse JSON response
-        setProducts(data); // Set the fetched products in state
-      } catch (err) {
-        setError(err.message); // Handle errors
-      } finally {
-        setIsLoading(false); // End loading state
-      }
-    };
+  // useEffect(() => {
+  //   const fetchProducts = async () => {
+  //     try {
+  //       const response = await fetch(
+  //         "http://127.0.0.1:8000/api/productos/listado"
+  //       );
+  //       if (!response.ok) {
+  //         throw new Error("Failed to fetch products");
+  //       }
+  //       const data = await response.json(); // Parse JSON response
+  //       setProducts(data); // Set the fetched products in state
+  //     } catch (err) {
+  //       setError(err.message); // Handle errors
+  //     } finally {
+  //       setIsLoading(false); // End loading state
+  //     }
+  //   };
 
-    fetchProducts();
-  }, []);
+  //   fetchProducts();
+  // }, []);
 
   const handleFilterChange = (filterId, group) => {
     setSelectedFilters((prev) => {

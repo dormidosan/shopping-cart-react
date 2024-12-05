@@ -1,0 +1,1790 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "uuid": "3b42053b-44fb-3b8a-9375-8436d9c7bdcd",
+      "tipo_producto_id": 1,
+      "proveedor_id": 2,
+      "codigo_farlab": "BC-6210",
+      "nombre": "BC-6210",
+      "descripcion": "Analizador de 6 partes.Modo CBC, CBC+DIFF, CBC+DIFF+RET, CBC+RET, RET Capacidad de Hasta 50 tubos de muestra",
+      "imagen": "bc_6200.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 2,
+        "nombre": "ACON"
+      }
+    },
+    {
+      "id": 2,
+      "uuid": "26ada472-6d62-300d-b5fb-9bcdd579acce",
+      "tipo_producto_id": 1,
+      "proveedor_id": 1,
+      "codigo_farlab": "BC3000P-A",
+      "nombre": "BC- 3000 plus",
+      "descripcion": "analizadores de hematología diferencial de 3 piezas Modo de Prueba CBC CBC+DIFF",
+      "imagen": "bc_3000p.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 1,
+        "nombre": "MEDICA"
+      }
+    },
+    {
+      "id": 3,
+      "uuid": "0ef84bd9-cf96-3243-88d5-4674ecd15695",
+      "tipo_producto_id": 1,
+      "proveedor_id": 9,
+      "codigo_farlab": "BC-5380",
+      "nombre": "BC-5380",
+      "descripcion": "Modo de Prueba CBC CBC+DIFF",
+      "imagen": "bc_5380.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 9,
+        "nombre": "PROTECH BIOSYSTEMS PVT. LTD"
+      }
+    },
+    {
+      "id": 4,
+      "uuid": "05142c41-2f43-34be-ba21-28e950384243",
+      "tipo_producto_id": 1,
+      "proveedor_id": 6,
+      "codigo_farlab": "BC-10",
+      "nombre": "BC-10",
+      "descripcion": "Modo de prueba CBC+3-DIFF,",
+      "imagen": "bc_10.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 6,
+        "nombre": "DIGAMED"
+      }
+    },
+    {
+      "id": 5,
+      "uuid": "18e94f08-e77f-3048-8175-83507e559577",
+      "tipo_producto_id": 1,
+      "proveedor_id": 8,
+      "codigo_farlab": "BC20S",
+      "nombre": "BC-20",
+      "descripcion": "Nueva tecnología que muestra señales de detección de aumento de linfocitos, anemia, HGB anormal/interferenciadas y Trombopenia.",
+      "imagen": "bc_20.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 8,
+        "nombre": "PHARM INTER SPRL"
+      }
+    },
+    {
+      "id": 6,
+      "uuid": "61a7ff95-1718-3960-8ab9-ffb7daf61d1b",
+      "tipo_producto_id": 1,
+      "proveedor_id": 7,
+      "codigo_farlab": "BC30S",
+      "nombre": "BC-30",
+      "descripcion": "Analizador de tres partes",
+      "imagen": "bc_30.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 7,
+      "uuid": "0c53ca9e-4522-34f3-b77a-90d8c6237ec0",
+      "tipo_producto_id": 1,
+      "proveedor_id": 6,
+      "codigo_farlab": "BC5800",
+      "nombre": "BC-5800",
+      "descripcion": "Analizador de 5 partes.",
+      "imagen": "bc_5800.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 6,
+        "nombre": "DIGAMED"
+      }
+    },
+    {
+      "id": 8,
+      "uuid": "7a8e36ff-87ec-34b0-8e5d-c2795d3f264e",
+      "tipo_producto_id": 1,
+      "proveedor_id": 6,
+      "codigo_farlab": "BC5300-U",
+      "nombre": "BC-5300",
+      "descripcion": "Analizador de 5 partes.",
+      "imagen": "bc_5300.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 6,
+        "nombre": "DIGAMED"
+      }
+    },
+    {
+      "id": 9,
+      "uuid": "88cdfb71-0f66-3393-bb0c-fb4e7fb97980",
+      "tipo_producto_id": 1,
+      "proveedor_id": 3,
+      "codigo_farlab": "3107B-CTO-S01",
+      "nombre": "BC-5150",
+      "descripcion": "Analizador de 5 partes,  ideal para laboratorios pequeños",
+      "imagen": "bc_5150.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 10,
+      "uuid": "79ccc9a3-f6a1-3800-957d-e0cb308f78fe",
+      "tipo_producto_id": 1,
+      "proveedor_id": 1,
+      "codigo_farlab": "BS-800",
+      "nombre": "BS-800",
+      "descripcion": "Equipo de alta precisión, que cuenta además con refrigeración de reactivo en circuito de agua, Sistema de calefacción sólida directa, Protección contra colisión, Diseño anti-humedad, entre otras caracteríticas",
+      "imagen": "bs_800.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 1,
+        "nombre": "MEDICA"
+      }
+    },
+    {
+      "id": 11,
+      "uuid": "ab2a4c29-f5bf-3e17-8de8-ef607ea13dc3",
+      "tipo_producto_id": 1,
+      "proveedor_id": 3,
+      "codigo_farlab": "BS-480",
+      "nombre": "BS-480",
+      "descripcion": "N/A",
+      "imagen": "bs_480.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 12,
+      "uuid": "601b09cc-85c6-3dca-b3ff-c48779b44518",
+      "tipo_producto_id": 1,
+      "proveedor_id": 2,
+      "codigo_farlab": "BS-380",
+      "nombre": "BS-380",
+      "descripcion": "N/A",
+      "imagen": "bs_380.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 2,
+        "nombre": "ACON"
+      }
+    },
+    {
+      "id": 13,
+      "uuid": "f2e6c2eb-6e03-3a6d-85f3-9d0b122c7289",
+      "tipo_producto_id": 1,
+      "proveedor_id": 8,
+      "codigo_farlab": "BS-600",
+      "nombre": "BS-600",
+      "descripcion": "N/A",
+      "imagen": "bs_600.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 8,
+        "nombre": "PHARM INTER SPRL"
+      }
+    },
+    {
+      "id": 14,
+      "uuid": "e92e4b39-a9c4-3361-8d61-7aaf9d84260a",
+      "tipo_producto_id": 1,
+      "proveedor_id": 2,
+      "codigo_farlab": "BS240 PRO",
+      "nombre": "BS-240 pro",
+      "descripcion": "Cuenta con sistema de autolavado, garantizando un consumo bajo de agua",
+      "imagen": "bs_240p.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 2,
+        "nombre": "ACON"
+      }
+    },
+    {
+      "id": 15,
+      "uuid": "73aa172f-d73e-3bd5-90a5-dead4ec1bd9e",
+      "tipo_producto_id": 1,
+      "proveedor_id": 8,
+      "codigo_farlab": "BS-200E",
+      "nombre": "BS-200 E",
+      "descripcion": "Equipo que cuenta con un sistema óptico de rejilla con 12 logitudes de onda, además de poseer sistema de limpieza automático,",
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 8,
+        "nombre": "PHARM INTER SPRL"
+      }
+    },
+    {
+      "id": 16,
+      "uuid": "d6ebd97e-794b-304c-b47e-991553b4f4ee",
+      "tipo_producto_id": 1,
+      "proveedor_id": 5,
+      "codigo_farlab": "BS-400",
+      "nombre": "BS-400",
+      "descripcion": "Cuenta con un sistema de enfriamiento, bandeja de muestras multifuncional, estación de limpieza entre otras caractristicas",
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 5,
+        "nombre": "MATRICERIA ROXY"
+      }
+    },
+    {
+      "id": 17,
+      "uuid": "c2444aee-904a-34bb-9e96-b172d7f7fc5d",
+      "tipo_producto_id": 1,
+      "proveedor_id": 3,
+      "codigo_farlab": "BA-88A",
+      "nombre": "BA-88A",
+      "descripcion": "Equipo de configuración sencilla, semiautomatizado, con pruebas biocromáticas disponibles. Permite un monitoreo en tiempo real de la curva de reacción, datos y cambio de temperatura",
+      "imagen": "ba_88a.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 18,
+      "uuid": "a976c7c7-cd57-389c-bf71-3a3382510dbe",
+      "tipo_producto_id": 1,
+      "proveedor_id": 6,
+      "codigo_farlab": "F05EB-PA00001",
+      "nombre": "C3100",
+      "descripcion": "Equipo que funciona bajo un método de detencción mecánica, insencible a muestras anormales que sean hemolítica, lipémicas, ictéricas,etc.                       Posee sondas de muestreo multifuncional.",
+      "imagen": "c_3100.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 6,
+        "nombre": "DIGAMED"
+      }
+    },
+    {
+      "id": 19,
+      "uuid": "a3b4b0cd-7b83-38b7-8161-b94e89a34bba",
+      "tipo_producto_id": 1,
+      "proveedor_id": 9,
+      "codigo_farlab": "Biobas 10",
+      "nombre": "Biobas 10",
+      "descripcion": "N/A",
+      "imagen": "biobas_10.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 9,
+        "nombre": "PROTECH BIOSYSTEMS PVT. LTD"
+      }
+    },
+    {
+      "id": 20,
+      "uuid": "3c37b6a1-6a33-34b7-af1b-7c73c33d0604",
+      "tipo_producto_id": 1,
+      "proveedor_id": 6,
+      "codigo_farlab": "Biobas 10",
+      "nombre": "Biobas 20",
+      "descripcion": "N/A",
+      "imagen": "biobas_20.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 6,
+        "nombre": "DIGAMED"
+      }
+    },
+    {
+      "id": 21,
+      "uuid": "b7e583f1-f3d7-3dce-ac1d-e67b33f0aa6d",
+      "tipo_producto_id": 1,
+      "proveedor_id": 9,
+      "codigo_farlab": "5001028-01",
+      "nombre": "Spin 800",
+      "descripcion": "Equipo de alta precisión, que cuenta además con refrigeración de reactivo en circuito de agua, Sistema de calefacción sólida directa, Protección contra colisión, Diseño anti-humedad, entre otras caracteríticas",
+      "imagen": "bs_800.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 9,
+        "nombre": "PROTECH BIOSYSTEMS PVT. LTD"
+      }
+    },
+    {
+      "id": 22,
+      "uuid": "7a92bd63-45e1-3d6b-b35e-64cab8f1d2d9",
+      "tipo_producto_id": 1,
+      "proveedor_id": 4,
+      "codigo_farlab": "5001023",
+      "nombre": "Spin 200 E",
+      "descripcion": "Equipo que cuenta con un sistema óptico de rejilla con 12 logitudes de onda, además de poseer sistema de limpieza automático,",
+      "imagen": "spin_200e.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 4,
+        "nombre": "MINDRAY"
+      }
+    },
+    {
+      "id": 23,
+      "uuid": "8b549b19-4aa2-38c8-a7f4-2c5b4e36400d",
+      "tipo_producto_id": 1,
+      "proveedor_id": 5,
+      "codigo_farlab": "5001027",
+      "nombre": "Spin 640",
+      "descripcion": "Cuenta con un sistema de enfriamiento, bandeja de muestras multifuncional, estación de limpieza entre otras características",
+      "imagen": "spin_640.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 5,
+        "nombre": "MATRICERIA ROXY"
+      }
+    },
+    {
+      "id": 24,
+      "uuid": "42dc8d7f-b84f-35e5-b855-41816aa205b8",
+      "tipo_producto_id": 1,
+      "proveedor_id": 10,
+      "codigo_farlab": "5001029",
+      "nombre": "Spin 640 plus",
+      "descripcion": "N/A",
+      "imagen": "spin_640p.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 10,
+        "nombre": "REYOUNG PHARMACEUTICAL CO., LTD"
+      }
+    },
+    {
+      "id": 25,
+      "uuid": "007a7b87-eb38-3997-8bbb-8760ec3922f9",
+      "tipo_producto_id": 1,
+      "proveedor_id": 4,
+      "codigo_farlab": "SP100",
+      "nombre": "Spinlab 100",
+      "descripcion": "N/A",
+      "imagen": "spinlab_100.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 4,
+        "nombre": "MINDRAY"
+      }
+    },
+    {
+      "id": 26,
+      "uuid": "1425528b-ff1a-3f9f-96b4-297e741aa034",
+      "tipo_producto_id": 1,
+      "proveedor_id": 8,
+      "codigo_farlab": "U213-105",
+      "nombre": "U500 INSIGHT EXPERT",
+      "descripcion": "N/A",
+      "imagen": "u500.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 8,
+        "nombre": "PHARM INTER SPRL"
+      }
+    },
+    {
+      "id": 27,
+      "uuid": "220d0411-f43f-330b-a9e5-f62164476133",
+      "tipo_producto_id": 1,
+      "proveedor_id": 7,
+      "codigo_farlab": "EasyLyte Plus",
+      "nombre": "EasyLyte Plus",
+      "descripcion": "Equipo de fácil uso guiado con base a repuestas SI/NO",
+      "imagen": "EasyLyte.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 28,
+      "uuid": "bee9d537-2ee1-3e18-a153-fb150e456c38",
+      "tipo_producto_id": 1,
+      "proveedor_id": 9,
+      "codigo_farlab": "G113-211",
+      "nombre": "ON CALL PLUS GLUCOMETRO",
+      "descripcion": "N/A",
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 9,
+        "nombre": "PROTECH BIOSYSTEMS PVT. LTD"
+      }
+    },
+    {
+      "id": 29,
+      "uuid": "a876160b-e128-30b0-9bdb-b68554626d1a",
+      "tipo_producto_id": 1,
+      "proveedor_id": 10,
+      "codigo_farlab": "C2000-2",
+      "nombre": "PRECIL C2220-2",
+      "descripcion": "Analizador de 2 canales",
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 10,
+        "nombre": "REYOUNG PHARMACEUTICAL CO., LTD"
+      }
+    },
+    {
+      "id": 30,
+      "uuid": "e3a9ac4c-dab2-3bad-80b2-fe09366235d7",
+      "tipo_producto_id": 1,
+      "proveedor_id": 5,
+      "codigo_farlab": "BS200-U",
+      "nombre": "BS200",
+      "descripcion": "N/A",
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 5,
+        "nombre": "MATRICERIA ROXY"
+      }
+    },
+    {
+      "id": 31,
+      "uuid": "0db8095d-f977-381a-a040-e9716122bb5b",
+      "tipo_producto_id": 1,
+      "proveedor_id": 8,
+      "codigo_farlab": "5003100",
+      "nombre": "BIOBAS 3100",
+      "descripcion": "N/A",
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 8,
+        "nombre": "PHARM INTER SPRL"
+      }
+    },
+    {
+      "id": 32,
+      "uuid": "be487953-18d5-3c70-a064-eb220b458a2b",
+      "tipo_producto_id": 1,
+      "proveedor_id": 9,
+      "codigo_farlab": "SPIN180-U",
+      "nombre": "Spinlab 180",
+      "descripcion": "N/A",
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 9,
+        "nombre": "PROTECH BIOSYSTEMS PVT. LTD"
+      }
+    },
+    {
+      "id": 33,
+      "uuid": "a6121582-c835-3622-9184-10bba0253c88",
+      "tipo_producto_id": 1,
+      "proveedor_id": 5,
+      "codigo_farlab": "5006101",
+      "nombre": "Spincell 3",
+      "descripcion": "N/A",
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 5,
+        "nombre": "MATRICERIA ROXY"
+      }
+    },
+    {
+      "id": 34,
+      "uuid": "19039219-e1f2-3cf2-b2b0-92913c4191bd",
+      "tipo_producto_id": 1,
+      "proveedor_id": 4,
+      "codigo_farlab": "MR-96A",
+      "nombre": "LECTOR ELISA MINDRAY",
+      "descripcion": "N/A",
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 4,
+        "nombre": "MINDRAY"
+      }
+    },
+    {
+      "id": 363,
+      "uuid": "87a03e42-e14e-39ea-9ff1-9d88181d3c10",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "FC5200010",
+      "nombre": "CUBETA DE COAGULACION CON AGITADOR BIOBAS  CAJA X 100",
+      "descripcion": null,
+      "imagen": "FC5200010.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 364,
+      "uuid": "7c094062-e24e-3834-a8df-da950a5fe5e6",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "P-4102",
+      "nombre": "MICROPIPETA (10 MCL)",
+      "descripcion": null,
+      "imagen": "P-4102.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 365,
+      "uuid": "6e1895b6-4e65-32b4-9e1e-59de485c3a33",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "P-4103",
+      "nombre": "MICROPIPETA (20 MCL)",
+      "descripcion": null,
+      "imagen": "P-4103.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 368,
+      "uuid": "21ac23bf-665e-3c02-bfb2-6fa92de73d79",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "P-4111",
+      "nombre": "MICROPIPETA 2000 UL",
+      "descripcion": null,
+      "imagen": "P-4111.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 369,
+      "uuid": "9f8cf44a-feab-3b9a-ab07-2fcb5267b164",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "P-4110",
+      "nombre": "MICROPIPETA FIJA (VOL 1000 MCL)",
+      "descripcion": null,
+      "imagen": "P-4110.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 370,
+      "uuid": "b0847e30-6745-3ecc-8eba-34227ec76637",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "P-4106",
+      "nombre": "MICROPIPETA FIJA 100 MCL",
+      "descripcion": null,
+      "imagen": "P-4106.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 371,
+      "uuid": "4882cb4f-509e-3e00-8417-3b6ad67cbc37",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "P-4105",
+      "nombre": "MICROPIPETA FIJA VOL 50 MCL",
+      "descripcion": null,
+      "imagen": "P-4105.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 372,
+      "uuid": "ca6679ea-526a-3b65-9225-351c09831a8e",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "P-4101",
+      "nombre": "MICROPIPETA FIJA VOL 5MCL",
+      "descripcion": null,
+      "imagen": "P-4101.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 374,
+      "uuid": "94e18c30-cb44-3b59-9e49-e1aa1751e456",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "P-4107",
+      "nombre": "MICROPIPETAS (200 MCL)",
+      "descripcion": null,
+      "imagen": "P-4107.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 375,
+      "uuid": "5f9c7940-3430-3858-b2ab-e76a4c9e369a",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "P-5003",
+      "nombre": "PUNTAS AMARILLAS 200 McL",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 377,
+      "uuid": "0d58ea91-c2d2-3349-902a-816bff6b51ef",
+      "tipo_producto_id": 5,
+      "proveedor_id": 2,
+      "codigo_farlab": "PTERM01",
+      "nombre": "PAPEL TERMICO PARA EASY LITE NUEVO",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 2,
+        "nombre": "ACON"
+      }
+    },
+    {
+      "id": 378,
+      "uuid": "17fa51ca-67ce-38a0-a638-4c1f449b75e7",
+      "tipo_producto_id": 5,
+      "proveedor_id": 4,
+      "codigo_farlab": "PRECIL-CUB",
+      "nombre": "CUVETAS +AGITADOR PARA C2000-2 350x2+AGITADORES",
+      "descripcion": null,
+      "imagen": "PRECIL-CUB.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 4,
+        "nombre": "MINDRAY"
+      }
+    },
+    {
+      "id": 379,
+      "uuid": "752059f2-1497-3280-9a5a-7b32c85f8f30",
+      "tipo_producto_id": 5,
+      "proveedor_id": 4,
+      "codigo_farlab": "PRECILCUBE",
+      "nombre": "CUBETAS PARA EQUIPO C2000-2",
+      "descripcion": null,
+      "imagen": "PRECILCUBE.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 4,
+        "nombre": "MINDRAY"
+      }
+    },
+    {
+      "id": 382,
+      "uuid": "bb682fab-8d91-3bab-b553-d097e0579f1d",
+      "tipo_producto_id": 5,
+      "proveedor_id": 2,
+      "codigo_farlab": "G124-10A",
+      "nombre": "LANCETA ON CALL CE 100T KIT",
+      "descripcion": null,
+      "imagen": "G124-10A.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 2,
+        "nombre": "ACON"
+      }
+    },
+    {
+      "id": 383,
+      "uuid": "3be792ae-dc1c-3ab5-b740-14dd3ae9bab4",
+      "tipo_producto_id": 5,
+      "proveedor_id": 2,
+      "codigo_farlab": "C121-3061",
+      "nombre": "MISSION LANCETAS DE SEGURIDAD I",
+      "descripcion": null,
+      "imagen": "C121-3061.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 2,
+        "nombre": "ACON"
+      }
+    },
+    {
+      "id": 384,
+      "uuid": "7a1b4642-4af8-3aa7-8f0f-cb934beaffe2",
+      "tipo_producto_id": 5,
+      "proveedor_id": 2,
+      "codigo_farlab": "G124-11A",
+      "nombre": "ON CALL CE LANCET DEVICE",
+      "descripcion": null,
+      "imagen": "G124-11A.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 2,
+        "nombre": "ACON"
+      }
+    },
+    {
+      "id": 385,
+      "uuid": "c44e3f01-146d-38ad-bfa5-c26893d4a7b3",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "E1024",
+      "nombre": "CAJA DE PUNTAS AMARILLAS X 96",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 386,
+      "uuid": "80960729-5e14-3537-99e7-3d20aea46d50",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "E1022",
+      "nombre": "CAJA DE PUNTAS AZULES X 100",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 387,
+      "uuid": "74e33533-dc96-32f4-bff0-71966f2a06c9",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "GDC-01",
+      "nombre": "CAJA RECOLECTORA DE AGUJA,  PLASTICA DE  1 LITRO",
+      "descripcion": null,
+      "imagen": "GDC-01.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 388,
+      "uuid": "f31741a7-6ce7-3225-9c05-17431d2cf4c6",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "GDC-05",
+      "nombre": "CAJA RECOLECTORA DE AGUJA,  PLASTICA DESCARTABLE CON TAPADERA AMARILLA DE 5 LITROS",
+      "descripcion": null,
+      "imagen": "GDC-05.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 389,
+      "uuid": "1203e235-e309-30c7-92cf-2f32bfefb817",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "C1002",
+      "nombre": "COPA MUESTRA 0.5 ML, X 1000, SPINLAB 180 x 1000",
+      "descripcion": null,
+      "imagen": "C1002.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 390,
+      "uuid": "8c234a69-73d2-389e-a953-eb9b3ceecd4e",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "C1003",
+      "nombre": "COPA PARA MUESTRA 0.5 ML, SERIE SPINLAB 100, SPINLAB 180 x 1000",
+      "descripcion": null,
+      "imagen": "C1003.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 391,
+      "uuid": "63c09953-9fb6-39d7-ae0d-42c84afe0c57",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "C1004",
+      "nombre": "COPA PARA MUESTRA 1.5 ML, SPINLAB 100, SPINLAB 180 x 1000",
+      "descripcion": null,
+      "imagen": "C1004.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 392,
+      "uuid": "c81a4186-cf75-3caa-91e1-faa595caa695",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "C1001",
+      "nombre": "COPA PARA MUESTRA 2 ML, SERIE BS200, BS200E Y SPIN640",
+      "descripcion": null,
+      "imagen": "C1001.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 393,
+      "uuid": "73845eb8-f40e-3a84-962b-bf895e42e913",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "C1013",
+      "nombre": "COPA PARA MUESTRA, SERIE PW2280",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 395,
+      "uuid": "e806d672-64ad-316d-80b1-62b0493c968d",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "P1001-M",
+      "nombre": "ESPECULO VAGINAL MEDIO",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 396,
+      "uuid": "33a49ac1-64e8-3465-b021-874b0299fe2c",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "P1001-S",
+      "nombre": "ESPECULO VAGINAL TALLA \"S\"",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 397,
+      "uuid": "60d513ab-8457-3e83-b296-5285062417b1",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "K1018",
+      "nombre": "FRASCO PARA ESPUTO X 30 ML, BOLSA X 10 ESTERIL",
+      "descripcion": null,
+      "imagen": "K1018.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 398,
+      "uuid": "15724fd2-123f-33d3-a256-21af0aefed3c",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "H1016",
+      "nombre": "FRASCO PARA ORINA ESTERIL DE 60 ML CON ETIQUETA",
+      "descripcion": null,
+      "imagen": "H1016.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 399,
+      "uuid": "d03e911c-d8fe-3fc7-86b4-59b99a31f538",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "K1015",
+      "nombre": "FRASCO PARA SPUTUM 30 ML",
+      "descripcion": null,
+      "imagen": "K1015.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 400,
+      "uuid": "2df85db3-c86b-3410-9e1f-ab2609d45d10",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "K1016",
+      "nombre": "FRASCO PARA SPUTUM 40 ML BOLSA X 5",
+      "descripcion": null,
+      "imagen": "K1016.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 401,
+      "uuid": "4cf80991-d9cd-304f-9b16-19fea5a335f1",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "H1015E",
+      "nombre": "FRASCO PLASTICO ESTERIL DE 100 - 120 ML",
+      "descripcion": null,
+      "imagen": "H1015E.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 402,
+      "uuid": "1ec61359-89e2-3ec7-b2f2-30c2d2606f0a",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "H1015",
+      "nombre": "FRASCO PLASTICO NO ESTERIL 100 A 120 ML",
+      "descripcion": null,
+      "imagen": "H1015.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 403,
+      "uuid": "1e91da92-459d-396b-b47b-ec5896ff1200",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "D1018",
+      "nombre": "MICROTUBO CONICO TAPON DE ROSCA ROJO DE  1.5 ML",
+      "descripcion": null,
+      "imagen": "D1018.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 404,
+      "uuid": "f6ea3b21-1057-3471-9fad-cca34f3676bf",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "D1015",
+      "nombre": "MICROTUBO FONDO PLANO TAPON DE ROSCA AMARILLO DE 1.8 ML",
+      "descripcion": null,
+      "imagen": "D1015.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 405,
+      "uuid": "7f119fee-03b7-3914-813f-c7ccc0d27342",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "K1004",
+      "nombre": "PLATO PETRI DE 1 COMP. 90*15MM",
+      "descripcion": null,
+      "imagen": "K1004.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 406,
+      "uuid": "f96dedc0-85ea-33a9-be1f-60972ca92756",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "K1003",
+      "nombre": "PLATO PETRI DE 2 COMP. 90*15MM",
+      "descripcion": null,
+      "imagen": "K1003.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 407,
+      "uuid": "47e8a377-69a7-3355-8305-e06fd3375c98",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "E1011",
+      "nombre": "PUNTA AMARILLA 10-200 UL UNIVERSAL",
+      "descripcion": null,
+      "imagen": "E1011.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 408,
+      "uuid": "b00dd4b6-40b6-3a7d-abe7-886283e9f15e",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "E1013",
+      "nombre": "PUNTAS AZULES X 500, TIPO GILSON",
+      "descripcion": null,
+      "imagen": "E1013.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 409,
+      "uuid": "1a9862e1-7e60-3adf-966f-df1d7e2c7bf9",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "H1001",
+      "nombre": "RACK PLASTICO 40 X 18 MM",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 410,
+      "uuid": "070285be-93b0-3424-be05-680b9355f6ec",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "H1003",
+      "nombre": "RACK PLASTICO 50 X 13 MM",
+      "descripcion": null,
+      "imagen": "H1003.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 411,
+      "uuid": "4c0bbadf-311a-308f-82d5-151bf987e72b",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "H1002",
+      "nombre": "RACK PLASTICO 50 X 15 MM",
+      "descripcion": null,
+      "imagen": "H1002.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 412,
+      "uuid": "37714d37-a19a-3bbd-a160-9132b67a8077",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "K1011",
+      "nombre": "TARRO DE HECES 1/2 NEGRO",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 413,
+      "uuid": "4453298e-6f53-3429-b63a-fd2e2fa01429",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "K1013",
+      "nombre": "TARRO DE HECES 2 ONZ TAPA ROJA",
+      "descripcion": null,
+      "imagen": "K1013.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 414,
+      "uuid": "09156f45-6fae-313c-b7cb-7d87c0ef92c5",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "G1018",
+      "nombre": "TUBO 13X75, PP 5.5 ML, X 400",
+      "descripcion": null,
+      "imagen": "G1018.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 415,
+      "uuid": "ac15c9bd-3dff-3dd6-bec3-e2ed6af5bf86",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "GD027SC",
+      "nombre": "TUBO AL VACIO T. CELESTE 2.7 ML X 100",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 416,
+      "uuid": "02c174df-0b34-30dd-9548-d3bf19a3d9de",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "GD020EK",
+      "nombre": "TUBO AL VACIO T. MORADO 13X75 MM 2 ML X 100",
+      "descripcion": null,
+      "imagen": "GD020EK.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 417,
+      "uuid": "393647a2-daa5-336d-86ea-70356f3079d7",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "GD0100A",
+      "nombre": "TUBO AL VACIO TAPON ROJO PLAIN 16X100, 10 MLX 100",
+      "descripcion": null,
+      "imagen": "GD0100A.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 418,
+      "uuid": "70b8da12-2095-3e70-b1c3-0c749750756f",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "G1017",
+      "nombre": "TUBO CONICO PARA ORINA 12 ML GRADUADO",
+      "descripcion": null,
+      "imagen": "G1017.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 419,
+      "uuid": "39e17a71-2acd-3e60-87ea-bb470c62a01a",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "GD005EK",
+      "nombre": "TUBO PEDIATRICO CON EDTA 0.5 ML CAJA X 100",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 420,
+      "uuid": "98a4d55d-37eb-369d-9b9a-c4aa6fbad101",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "GD010EK",
+      "nombre": "TUBO PLASTICO PEDIATRICO DE 1 ML",
+      "descripcion": null,
+      "imagen": "GD010EK.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 421,
+      "uuid": "750d1528-74eb-375a-8ad2-36bed0b78af0",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "GD040SGC",
+      "nombre": "TUBO TAPON AMARRILLO CON ACTIVADOR 4 ML PET CAJA X 100",
+      "descripcion": null,
+      "imagen": "GD040SGC.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 422,
+      "uuid": "3c81f16b-d3d2-356b-bab5-0da566c9b4bf",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "GD018SC",
+      "nombre": "TUBO TAPON AZUL 1.8 ML PET X 100",
+      "descripcion": null,
+      "imagen": "GD018SC.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 424,
+      "uuid": "2221046e-1850-30f4-b059-bcc4c65e5b3b",
+      "tipo_producto_id": 5,
+      "proveedor_id": 7,
+      "codigo_farlab": "GD050CA",
+      "nombre": "TUBO TAPON ROJO CON ACTIVADOR  5 ML PET",
+      "descripcion": null,
+      "imagen": "GD050CA.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 7,
+        "nombre": "GONGDONG"
+      }
+    },
+    {
+      "id": 425,
+      "uuid": "8a606dc1-f46e-322e-a4dc-be35d6a92ead",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "",
+      "nombre": "PIPETA AJUSTABLE VOL 200 - 1000 MCL",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 426,
+      "uuid": "5cbd542b-dd78-363c-b534-76f52864a804",
+      "tipo_producto_id": 5,
+      "proveedor_id": 3,
+      "codigo_farlab": "P-4510",
+      "nombre": "PIPETA MULTICANAL DE 50-300 UL",
+      "descripcion": null,
+      "imagen": "P-4510.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    },
+    {
+      "id": 427,
+      "uuid": "d3e25d20-936b-3b5b-9141-0a16421cac17",
+      "tipo_producto_id": 5,
+      "proveedor_id": 4,
+      "codigo_farlab": "BA31-30-41635",
+      "nombre": "BS-200 CUVETTES",
+      "descripcion": null,
+      "imagen": "BA31-30-41635.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 4,
+        "nombre": "MINDRAY"
+      }
+    },
+    {
+      "id": 432,
+      "uuid": "1d552fc8-4488-3c80-b286-c6c789ab7f03",
+      "tipo_producto_id": 5,
+      "proveedor_id": 4,
+      "codigo_farlab": "115-045559-00",
+      "nombre": "CUVETA PARA EQUIPO 240 PRO  caja x 8 u",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 4,
+        "nombre": "MINDRAY"
+      }
+    },
+    {
+      "id": 433,
+      "uuid": "6be3f2e3-64b4-32a0-961c-1a963b5ac5b7",
+      "tipo_producto_id": 5,
+      "proveedor_id": 4,
+      "codigo_farlab": "040-001952-00",
+      "nombre": "CUVETA PARA EQUIPO DE COAGULACION C3100 1000 pcs/roll",
+      "descripcion": null,
+      "imagen": "ND.png",
+      "activo": 1,
+      "tipo_producto": {
+        "id": 5,
+        "nombre": "miscelaneos"
+      },
+      "proveedor": {
+        "id": 4,
+        "nombre": "MINDRAY"
+      }
+    },
+    {
+      "id": 436,
+      "uuid": "6e82aa1d-34d6-4ef2-a744-9dca75969626",
+      "tipo_producto_id": 1,
+      "proveedor_id": 3,
+      "codigo_farlab": "BC-6200P",
+      "nombre": "69aBC-6200P",
+      "descripcion": "asd",
+      "imagen": null,
+      "activo": 1,
+      "tipo_producto": {
+        "id": 1,
+        "nombre": "equipos"
+      },
+      "proveedor": {
+        "id": 3,
+        "nombre": "SPINREACT"
+      }
+    }
+  ]
+}
