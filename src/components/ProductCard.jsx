@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 
-const ProductCard = React.memo(function ProductCard({
+const ProductCard = React.memo(function ProductCard ({
   uuid,
   tipo_producto_id,
   proveedor_id,
@@ -10,23 +10,23 @@ const ProductCard = React.memo(function ProductCard({
   descripcion,
   imagen,
   activo,
-  onAddToCart,
+  onAddToCart
 }) {
-  const [quantity, setQuantity] = useState(1);
+  const [quantity, setQuantity] = useState(1)
 
   const handleQuantityChange = (e) => {
-    const value = parseInt(e.target.value);
-    setQuantity(isNaN(value) || value < 1 ? 1 : value);
-  };
+    const value = parseInt(e.target.value)
+    setQuantity(isNaN(value) || value < 1 ? 1 : value)
+  }
 
   const handleAddToCart = () => {
-    onAddToCart(quantity);
-    setQuantity(1);
-  };
+    onAddToCart(quantity)
+    setQuantity(1)
+  }
 
   return (
     <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
-      <div className="h-48" style={{ backgroundColor: "#0066ff" }}>
+      <div className="h-48" style={{ backgroundColor: '#0066ff' }}>
         <div className="flex h-full items-center justify-center text-white text-xl">
           {nombre}
         </div>
@@ -39,7 +39,7 @@ const ProductCard = React.memo(function ProductCard({
             <svg
               key={i}
               className={`h-4 w-4 ${
-                i < 3 ? "text-yellow-400" : "text-gray-300"
+                i < 3 ? 'text-yellow-400' : 'text-gray-300'
               }`}
               fill="currentColor"
               viewBox="0 0 20 20"
@@ -66,7 +66,7 @@ const ProductCard = React.memo(function ProductCard({
         </div>
       </div>
     </div>
-  );
-});
+  )
+})
 
-export default ProductCard;
+export default ProductCard

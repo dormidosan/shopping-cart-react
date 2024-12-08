@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Sidebar = ({ filters, selectedFilters, onFilterChange }) => {
   return (
@@ -16,8 +16,7 @@ const Sidebar = ({ filters, selectedFilters, onFilterChange }) => {
                     section.title.toLowerCase()
                   ].includes(option.id)}
                   onChange={() =>
-                    onFilterChange(option.id, section.title.toLowerCase())
-                  }
+                    onFilterChange(option.id, section.title.toLowerCase())}
                   className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                 />
                 <label htmlFor={option.id} className="text-sm text-gray-700">
@@ -29,7 +28,7 @@ const Sidebar = ({ filters, selectedFilters, onFilterChange }) => {
         </div>
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default Sidebar;
+export default Sidebar

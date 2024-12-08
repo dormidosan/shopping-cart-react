@@ -1,9 +1,9 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import { useCart } from "../context/CartContext";
+import React, { useState, useEffect } from 'react'
+
+import { useCart } from '../context/CartContext'
 
 const Checkout = () => {
-  const { cart } = useCart();
+  const { cart } = useCart()
 
   return (
     <>
@@ -32,8 +32,8 @@ const Checkout = () => {
       </div>
       <div className="mt-6">
         {/*
-        <Link 
-          href="/catalog" 
+        <Link
+          href="/catalog"
           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
         >
           Back to Catalog
@@ -41,7 +41,7 @@ const Checkout = () => {
         */}
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Checkout;
+export default Checkout

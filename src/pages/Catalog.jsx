@@ -1,97 +1,97 @@
-import React from "react";
-import { useState, useMemo, useEffect } from "react";
-import Sidebar from "../components/Sidebar";
-import ProductCard from "../components/ProductCard";
-import { useCart } from "../context/CartContext";
-import { products } from "../mocks/api.json";
+import React, { useState, useMemo, useEffect } from 'react'
+
+import Sidebar from '../components/Sidebar'
+import ProductCard from '../components/ProductCard'
+import { useCart } from '../context/CartContext'
+import { products } from '../mocks/api.json'
 
 const filters = [
   {
-    title: "Categorias",
+    title: 'Categorias',
     options: [
-      { id: 1, label: "Equipos" },
-      { id: 2, label: "Reactivos" },
-      { id: 3, label: "Medicamentos" },
-      { id: 4, label: "Pruebas Rapidas" },
-      { id: 5, label: "Miscelaneos" },
-    ],
+      { id: 1, label: 'Equipos' },
+      { id: 2, label: 'Reactivos' },
+      { id: 3, label: 'Medicamentos' },
+      { id: 4, label: 'Pruebas Rapidas' },
+      { id: 5, label: 'Miscelaneos' }
+    ]
   },
   {
-    title: "Proveedor",
+    title: 'Proveedor',
     options: [
-      { id: 1, label: "Spinreact" },
-      { id: 2, label: "Mindray" },
-      { id: 3, label: "RightSign" },
-    ],
+      { id: 1, label: 'Spinreact' },
+      { id: 2, label: 'Mindray' },
+      { id: 3, label: 'RightSign' }
+    ]
   },
   {
-    title: "Area",
+    title: 'Area',
     options: [
-      { id: 1, label: "Quimica" },
-      { id: 2, label: "Hematologia" },
-      { id: 3, label: "Coagulacion" },
-      { id: 4, label: "Urianalisis" },
-    ],
-  },
-];
+      { id: 1, label: 'Quimica' },
+      { id: 2, label: 'Hematologia' },
+      { id: 3, label: 'Coagulacion' },
+      { id: 4, label: 'Urianalisis' }
+    ]
+  }
+]
 
 const Listproducts = [
   {
-    name: "usi",
-    manufacturer: "Sadie Macejkovic",
+    name: 'usi',
+    manufacturer: 'Sadie Macejkovic',
     rating: 4,
-    backgroundColor: "#00ff9d",
-    category: "equipos",
+    backgroundColor: '#00ff9d',
+    category: 'equipos'
   },
   {
-    name: "iusto",
-    manufacturer: "Harrison Rempel",
+    name: 'iusto',
+    manufacturer: 'Harrison Rempel',
     rating: 2,
-    backgroundColor: "#0066ff",
-    category: "reactivos",
+    backgroundColor: '#0066ff',
+    category: 'reactivos'
   },
   {
-    name: "laborum",
-    manufacturer: "Magnus Zboncak",
+    name: 'laborum',
+    manufacturer: 'Magnus Zboncak',
     rating: 5,
-    backgroundColor: "#0000cc",
-    category: "miscelaneos",
+    backgroundColor: '#0000cc',
+    category: 'miscelaneos'
   },
   {
-    name: "asd",
-    manufacturer: "Sadie Macejkovic",
+    name: 'asd',
+    manufacturer: 'Sadie Macejkovic',
     rating: 3,
-    backgroundColor: "#31119d",
-    category: "reactivos",
+    backgroundColor: '#31119d',
+    category: 'reactivos'
   },
   {
-    name: "iusto",
-    manufacturer: "Harrison Rempel",
+    name: 'iusto',
+    manufacturer: 'Harrison Rempel',
     rating: 3,
-    backgroundColor: "#5277ff",
-    category: "equipos",
+    backgroundColor: '#5277ff',
+    category: 'equipos'
   },
   {
-    name: "laborum",
-    manufacturer: "Magnus Zboncak",
+    name: 'laborum',
+    manufacturer: 'Magnus Zboncak',
     rating: 3,
-    backgroundColor: "#93FF55",
-    category: "pruebasrapidas",
-  },
-];
+    backgroundColor: '#93FF55',
+    category: 'pruebasrapidas'
+  }
+]
 
 const Catalog = () => {
   const [selectedFilters, setSelectedFilters] = useState({
     categorias: [],
     proveedor: [],
-    area: [],
-  });
+    area: []
+  })
 
-  const { addToCart } = useCart();
+  const { addToCart } = useCart()
 
-  //const [products, setProducts] = useState([]); // State to store fetched products
-  const [isLoading, setIsLoading] = useState(true); // State to manage loading state
-  const [error, setError] = useState(null); // State to manage error
+  // const [products, setProducts] = useState([]); // State to store fetched products
+  const [isLoading, setIsLoading] = useState(true) // State to manage loading state
+  const [error, setError] = useState(null) // State to manage error
 
   // Fetch products from the API
   // useEffect(() => {
@@ -119,34 +119,31 @@ const Catalog = () => {
     setSelectedFilters((prev) => {
       const updatedGroup = prev[group].includes(filterId)
         ? prev[group].filter((id) => id !== filterId)
-        : [...prev[group], filterId];
+        : [...prev[group], filterId]
 
-      return {
-        ...prev,
-        [group]: updatedGroup,
-      };
-    });
-  };
+      return { ...prev, [group]: updatedGroup }
+    })
+  }
 
   const filteredProducts = useMemo(() => {
     return products.filter((product) => {
       const matchCategoria =
         selectedFilters.categorias.length === 0 ||
-        selectedFilters.categorias.includes(product.tipo_producto_id);
+        selectedFilters.categorias.includes(product.tipo_producto_id)
       const matchProveedor =
         selectedFilters.proveedor.length === 0 ||
-        selectedFilters.proveedor.includes(product.proveedor_id); // Assuming this is the correct field
+        selectedFilters.proveedor.includes(product.proveedor_id) // Assuming this is the correct field
       const matchArea =
         selectedFilters.area.length === 0 ||
-        selectedFilters.area.includes(product.area_id); // Assuming this is the correct field
+        selectedFilters.area.includes(product.area_id) // Assuming this is the correct field
 
-      return matchCategoria && matchProveedor && matchArea;
-    });
-  }, [selectedFilters, products]);
+      return matchCategoria && matchProveedor && matchArea
+    })
+  }, [selectedFilters, products])
 
   const handleAddToCart = (uuid, productName, quantity) => {
-    addToCart({ uuid, nombre: productName, quantity });
-  };
+    addToCart({ uuid, nombre: productName, quantity })
+  }
 
   return (
     <main className="py-1 mt-16 bg-blue-100">
@@ -176,14 +173,13 @@ const Catalog = () => {
               {...product}
               index={index + 1}
               onAddToCart={(quantity) =>
-                handleAddToCart(product.uuid, product.nombre, quantity)
-              }
+                handleAddToCart(product.uuid, product.nombre, quantity)}
             />
           ))}
         </div>
       </div>
     </main>
-  );
-};
+  )
+}
 
-export default Catalog;
+export default Catalog
