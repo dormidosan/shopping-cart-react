@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 
-const ProductCard = React.memo(function ProductCard ({
+export function ProductCard ({
   uuid,
   tipo_producto_id,
   proveedor_id,
-  codigo_farlab,
+  codigoFarlab,
   index,
   nombre,
   descripcion,
@@ -33,7 +33,7 @@ const ProductCard = React.memo(function ProductCard ({
       </div>
       <div className="p-4">
         <h3 className="text-lg font-semibold">{nombre}</h3>
-        <p className="text-sm text-gray-500 mt-1">{codigo_farlab}</p>
+        <p className="text-sm text-gray-500 mt-1">{codigoFarlab}</p>
         <div className="flex items-center space-x-1 mt-2">
           {[...Array(5)].map((_, i) => (
             <svg
@@ -67,6 +67,4 @@ const ProductCard = React.memo(function ProductCard ({
       </div>
     </div>
   )
-})
-
-export default ProductCard
+}
