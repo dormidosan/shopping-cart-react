@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Sidebar = ({ filters, selectedFilters, onFilterChange }) => {
+  console.log('rendering Sidebar component')
   return (
     <div className="space-y-8 ml-4 bg-green-200">
       {filters.map((section) => (

@@ -1,0 +1,17 @@
+.pulse-loader {
+   background: #888; /* Base color */
+   animation: pulse 1.5s infinite ease-in-out;
+   
+ }
+
+ @keyframes pulse {
+   0% {
+     background-color: #888;
+   }
+   50% {
+     background-color: #aaa;
+   }
+   100% {
+     background-color: #888;
+   }
+ }

@@ -1,35 +1,85 @@
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
+import { useCart } from '../context/CartContext'
+import { ImageFallback } from '../components/ImageFallback'
+import '../styles/image.css'
 
-export function ProductCard ({
-  uuid,
-  tipo_producto_id,
-  proveedor_id,
-  codigoFarlab,
-  index,
-  nombre,
-  descripcion,
-  imagen,
-  activo,
-  onAddToCart
-}) {
+import { ImageWithBackground } from './ImageWithBackground'
+const IMAGE_SRC = 'http://127.0.0.1:8000/storage/images/'
+
+export function ProductCard ({ index, ...props }) {
+  const {
+    uuid, tipo_producto_id, proveedor_id,
+    codigoFarlab, nombre, descripcion,
+    imagen, activo
+  } = props
+
   const [quantity, setQuantity] = useState(1)
+  // const [imgLoaded, setImgLoaded] = useState(false)
+  const [isLoaded, setIsLoaded] = useState(false)
+  const imageRef = useRef(null)
+  const fullImagen = imagen ? `${IMAGE_SRC}${imagen}` : 'nd.png'
 
   const handleQuantityChange = (e) => {
     const value = parseInt(e.target.value)
     setQuantity(isNaN(value) || value < 1 ? 1 : value)
   }
 
+  useEffect(() => {
+    if (imageRef.current && imageRef.current.complete) {
+      setIsLoaded(true)
+    }
+  }, [])
+
+  const { addToCart } = useCart()
+
   const handleAddToCart = () => {
-    onAddToCart(quantity)
+    addToCart({ uuid, nombre, quantity })
+    console.log('Product added to cart')
     setQuantity(1)
   }
 
+  const handleImageLoad = () => {
+    console.log('Image loaded is changed to true')
+    setIsLoaded(true)
+  }
+
+  // console.log('rendering ProductCard component' + nombre)
+  // const onLoadImage = () => {
+  //   console.log('Loading img ' + imagen)
+  //   setImgLoaded(true)
+  // }
+
+  // console.log('rendering ProductCard component' + nombre)
+
   return (
+
     <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
-      <div className="h-48" style={{ backgroundColor: '#0066ff' }}>
-        <div className="flex h-full items-center justify-center text-white text-xl">
-          {nombre}
-        </div>
+
+      <div className="h-48 pulse-loader relative ">
+        {/* <AsyncImage src={fullImagen} style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> */}
+        {/* <ImageFallback src={imagen} alt="imagen of the product or equipment" /> */}
+        {/* imgLoaded ? null : <div className="h-48 pulse-loader"> </div> */}
+        <img
+          src={fullImagen}
+          alt="imagen of the product or equipment" loading="lazy"
+          onLoad={(e) => (e.target.style.opacity = 1)}
+          // onLoad={handleImageLoad}
+          onError={(e) => (e.target.src = IMAGE_SRC + 'nd.png')}
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            position: 'absolute',
+            // transition: 'opacity 0.1s ease-in-out',
+            opacity: 0.03
+          }}
+        />
+
+        {/* <ImageWithBackground
+          fullImage={fullImagen}
+           style={imgLoaded ? {} : { opacity: 0.01 }}
+          alt="Image of the product or equipment"
+        /> */}
       </div>
       <div className="p-4">
         <h3 className="text-lg font-semibold">{nombre}</h3>
@@ -66,5 +116,6 @@ export function ProductCard ({
         </div>
       </div>
     </div>
+
   )
 }

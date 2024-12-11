@@ -13,13 +13,15 @@ const Catalog = () => {
 
   const [products, setProducts] = useState([]) // State to store fetched products
   // const [products, setProducts] = useState([]); // State to store fetched products
-  const [isLoading, setIsLoading] = useState(true) // State to manage loading state
-  const [error, setError] = useState(null) // State to manage error
+  // const [isLoading, setIsLoading] = useState(true) // State to manage loading state
+  // const [error, setError] = useState(null) // State to manage error
+  const displayedProducts = useRef([])
 
   useEffect(() => {
     const fetchAndSetProducts = async () => {
       const newProducts = await fetchProducts()
       setProducts(newProducts)
+      // originalProducts.current = newProducts
     }
     fetchAndSetProducts()
   }, [])
@@ -34,6 +36,7 @@ const Catalog = () => {
     })
   }
 
+  console.log('rendering Catalog component')
   const filteredProducts = useMemo(() => {
     const newFiltered = products.filter((product) => {
       const matchCategoria =
@@ -49,7 +52,19 @@ const Catalog = () => {
       return matchCategoria && matchProveedor && matchArea
     })
 
-    return newFiltered
+    // TRUE if they are equal, FALSE if they are different
+    const areEqual = JSON.stringify(newFiltered) === JSON.stringify(displayedProducts.current)
+    console.log('areEqual', areEqual)
+    if (!areEqual) {
+      displayedProducts.current = newFiltered
+    }
+    return displayedProducts.current
+    // return newFiltered
+    // if (!areEqual) {
+    //   originalProducts.current = newFiltered
+    // }
+
+    // return filteredProductsRef.current
   }, [products, selectedFilters])
 
   return (

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Farlab from '../assets/favicon96.png'
 import { useRef, useEffect, useState } from 'react'
 import { useCart } from '../context/CartContext'
-import { useToggle } from '../hooks/useToggle'
+// import { useToggle } from '../hooks/useToggle'
 
 const navbarlinks = [
   { id: 1, tittle: 'Home', link: '/' },
@@ -11,12 +11,14 @@ const navbarlinks = [
   { id: 4, tittle: 'Contact', link: '/contact' }
 ]
 
-const sociallinks = [
-  { id: 1, tittle: 'Fac', link: 'https://www.facebook.com' },
-  { id: 2, tittle: 'Twi', link: 'https://www.twitter.com' },
-  { id: 3, tittle: 'Ins', link: 'https://www.instagram.com' },
-  { id: 4, tittle: 'Lin', link: 'https://www.linkedin.com' }
-]
+// const sociallinks = [
+//   { id: 1, tittle: 'Fac', link: 'https://www.facebook.com' },
+//   { id: 2, tittle: 'Twi', link: 'https://www.twitter.com' },
+//   { id: 3, tittle: 'Ins', link: 'https://www.instagram.com' },
+//   { id: 4, tittle: 'Lin', link: 'https://www.linkedin.com' }
+// ]
+
+const sociallinks = []
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
